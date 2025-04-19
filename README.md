@@ -48,6 +48,3 @@ Ce projet a pour objectif d'automatiser la création de logos à partir des rép
 ![Make](https://img.shields.io/badge/make-no--code-blue)
 ![OpenAI](https://img.shields.io/badge/OpenAI-API-lightgrey)
 ![Statut](https://img.shields.io/badge/projet-en%20cours-orange)
-
----
-
