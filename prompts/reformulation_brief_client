@@ -1,1 +1,14 @@
-a
+{
+  "model": "gpt-4o",
+  "temperature": 0.7,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu es un expert en branding et en design de logos. Tu crées des prompts optimisés pour générer des logos professionnels avec DALL·E 3. Ta mission est de transformer un brief client en un prompt d’image cohérent, inspirant et exploitable par une IA de génération d’images."
+    },
+    {
+      "role": "user",
+      "content": "Voici le brief du client pour la création d’un logo :\n\n🏢 Nom de l’entreprise : {{2.data.fields[1].value}}\n💬 Slogan : {{2.data.fields[2].value}}\n💼 Domaine : {{2.data.fields[3].value}}\n👥 Cibles : {{2.data.fields[4].value}}\n🎨 Style de logo : {{17.styleLogoFinal}}\n🧘‍♂️ Style autre (préciser) : {{2.data.fields[6].value}}\n🌈 Couleurs à privilégier : {{2.data.fields[9].value}}\n💡 Inspirations : {{2.data.fields[10].value}}\n📝 Autres commentaires : {{2.data.fields[11].value}}\n\nMerci de créer un prompt clair, professionnel, riche en détails visuels (forme, couleurs, ambiance) et parfaitement structuré pour une IA génératrice d’image comme DALL·E 3. N’inclus pas le brief, uniquement la description du logo à générer."
+    }
+  ]
+}
